@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindepth 1 -type d | wc -l
+grep -v '^[0-9]' /etc/ssh/sshd_config 
