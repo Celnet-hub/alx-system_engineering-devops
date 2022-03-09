@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindepth 1 -type d | wc -l
+grep -A 3 "root" /etc/passwd
